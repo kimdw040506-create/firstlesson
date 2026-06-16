@@ -4,6 +4,8 @@ import jm.task.core.jdbc.model.User;
 
 import java.util.List;
 
+import static java.text.Collator.PRIMARY;
+
 public interface UserDao {
     void createUsersTable();
 
