@@ -39,7 +39,7 @@ public class UserServiceTest {
         try {
             userService.dropUsersTable();
             userService.createUsersTable();
-            userService.saveUser(testName, lastName, testAge);
+            userService.saveUser(testName, testLastName, testAge);
 
             User user = userService.getAllUsers().get(0);
 
